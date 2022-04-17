@@ -48,7 +48,6 @@ $presentTime = new DateTime();
         <?php echo 'You need ' . convertDiffToMinutes($timeUntilDestinationTime)/10000 . ' gallons of engine oil for your travel through time'; ?>
     </div>
 
-
 </body>
 </html>
 
