@@ -13,7 +13,7 @@ $presentTime = new DateTime();
     function convertDiffToMinutes($timeUntilDestinationTime):int
     {
         $yMin = $timeUntilDestinationTime->format("%y") * 525600;  // convertir années en minutes
-        $mMin = $timeUntilDestinationTime->format("%m") * 43800;  // convertir mois (en 31 jours) en minutes
+        $mMin = $timeUntilDestinationTime->format("%m") * 43800;  // convertir mois en minutes
         $dMin = $timeUntilDestinationTime->format("%d") * 1440;  // convertir jours en minutes
         $hMin = $timeUntilDestinationTime->format("%h") * 60;  // convertir heures en minutes
         $iMin = $timeUntilDestinationTime->format("%i");
