@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Orbitron&family=Roboto+Mono:wght@100;400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    background-image: 
+    url('rain-316580.jpg');
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.actual-time,  .destination-time{
+    font-size: smaller;
+    margin-left: 0px;
+}
+
+.timeLeft {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    font-size: larger;
+}
+
+.carburant {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
