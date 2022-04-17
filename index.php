@@ -20,13 +20,6 @@ $presentTime = new DateTime();
     
         return $yMin + $mMin + $dMin + $hMin + $iMin;
     }
-
-    
-    
-
-   
-
-    //echo '<p class="clock">' . $destinationTime->format('m-d-Y a H:i') . '<p>';
 ?>
 
 <!DOCTYPE html>
